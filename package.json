@@ -1,0 +1,17 @@
+{
+  "name": "CypressTest",
+  "version": "1.0.0",
+  "description": "Sample Cypress Test Suite",
+  "author": "Srikrishna Shastri",
+  "license": "ISC",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "test": "cypress run --browser chrome --record --key 470d6916-9abf-4cd0-95b4-d1716f8123ec"
+  },
+  "dependencies": {
+    "cypress": "3.1.0"
+  }
+}
